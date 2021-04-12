@@ -145,7 +145,7 @@ print(my_refrigerator.get_all(True))
 # # print(my_users.get_users())
 # #
 # #
-# # ####Zaimplementuj metodę get_users_by_role aby  zwracała listę użytkowników po danej roli role oraz ssciezka z zewnatrz do pliku z danymi
+# # ####Zaimplementuj metodę get_users_by_role aby  zwracała listę użytkowników po danej roli role orazssciezka z zewnatrz do pliku z danymi
 # # from typing import List
 # #
 # # class User:

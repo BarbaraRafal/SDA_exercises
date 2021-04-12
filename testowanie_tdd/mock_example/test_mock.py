@@ -1,5 +1,7 @@
+from unittest.mock import patch
+
 import requests
-from home_work.mocks_example import get_content_from_google, get_response_status_code
+from mocks_example import get_content_from_google, get_response_status_code
 
 
 class MocksExampleTestCase(unittest.TestCase):

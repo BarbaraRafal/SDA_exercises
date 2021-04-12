@@ -1,5 +1,5 @@
 import unittest
-from home_work.home_work_jadwiga import Book
+from testowanie_tdd.home_work.home_work_jadwiga import Book
 
 
 class BookTestCase(unittest.TestCase):

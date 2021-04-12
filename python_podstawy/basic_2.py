@@ -46,13 +46,13 @@
 # # print(remove_duplicates('mój mój piękny dom na warmii'))
 #
 # # napisz kod ktory przyjmie sekwencję liczb oraz wypełni jej brakujące wartości
-# def fill_gaps(elements):
-#     filled = []
-#     for index in range(elements[0] ,elements[-1] +1): # start i stop zdefiniowane
-#         filled.append(index)
-#     return filled
-#
-# print(fill_gaps([1, 2, 6, 8]))
+def fill_gaps(elements):
+    filled = []
+    for index in range(elements[0] ,elements[-1] +1): # start i stop zdefiniowane
+        filled.append(index)
+    return filled
+
+print(fill_gaps([1, 2, 6, 8]))
 #
 # #napisz kod ktory pzyjmie od uzytkownika  tekst i zliczy oraz zwroci ilosc wystapien znaków
 # # def occurrences(text):
@@ -157,3 +157,7 @@
 # #     print(f'Temperature {temperature_F}F is equal to {temperature_C}C ')
 # #     return
 # # fahrenheit_to_celsius(56)
+
+
+if __name__ == "__main__":
+    print(fill_gaps([1, 2, 6,mis 8]))
